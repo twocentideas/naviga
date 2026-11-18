@@ -193,3 +193,7 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 /* Display headings: standard letterforms (no ff/fi/ffi ligatures) for even spacing */
 .display,.h-xxl,.h-xl,.h-lg,.h-md,.lede,blockquote{font-variant-ligatures:no-common-ligatures}
 .h-story{font-size:clamp(30px,3.3vw,45px)}
+/* About: founder's note */
+.founder-note{gap:20px}
+.founder-note p{font-family:var(--serif-display);font-weight:500;font-size:clamp(21px,1.9vw,25px);line-height:1.5}
+.founder-note .signature{font-style:italic;font-size:clamp(30px,2.6vw,38px);line-height:1.1;margin-top:8px}
