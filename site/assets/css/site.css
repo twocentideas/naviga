@@ -271,3 +271,8 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .foot-top .epigraph-fig{grid-column:2}
   .epigraph-fig blockquote p{font-size:clamp(20px,2.3vw,24px)}
 }
+/* Quote + byline right-justified whenever it sits beside the logo */
+@media (min-width:761px){
+  .foot-top .epigraph-fig{align-items:flex-end;text-align:right}
+  .epigraph-fig blockquote p{text-indent:0}
+}
