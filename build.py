@@ -184,11 +184,12 @@ def home():
 </div>
 </section>
 
-<section class="section section-tint quote-band">
-<div class="wrap narrow center">
-<span class="rule-accent" aria-hidden="true"></span>
-<blockquote>“I am not afraid of storms, for I am learning how to sail my ship.”</blockquote>
-<p class="cite">— Louisa May Alcott</p>
+<section class="epigraph" aria-label="Foundational quote">
+<div class="wrap">
+<figure class="epigraph-fig">
+<blockquote><p><span class="q-mark" aria-hidden="true">“</span>I am not afraid of storms, for I am learning how to sail my ship.<span class="q-mark" aria-hidden="true">”</span></p></blockquote>
+<figcaption><span class="ep-rule" aria-hidden="true"></span>Louisa May Alcott<span class="ep-rule" aria-hidden="true"></span></figcaption>
+</figure>
 </div>
 </section>'''
     return (head('Naviga Law | Trusts & Estates Attorney in Scarborough, Maine',
