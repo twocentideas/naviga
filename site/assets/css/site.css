@@ -357,3 +357,6 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .svc-d{font-family:var(--serif-display);font-style:italic;font-weight:500;font-size:16.5px;line-height:1.35;color:var(--mountain);margin:2px 0 6px}
 .copy .credit{text-decoration:none;letter-spacing:.05em}
 .copy .credit:hover{color:var(--glacier)}
+/* Home hero: chart enlarged so its printed border runs off-screen */
+.sky-hero{position:relative;isolation:isolate;overflow:hidden;background-image:none}
+.sky-hero::before{content:'';position:absolute;inset:-14% -16%;z-index:-1;background-image:linear-gradient(rgba(212,225,231,.84),rgba(212,225,231,.84)),image-set(url(/assets/img/chart-hero.webp) type('image/webp'),url(/assets/img/chart-hero.jpg) type('image/jpeg'));background-size:cover;background-position:center 34%;background-repeat:no-repeat}

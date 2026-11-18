@@ -61,7 +61,7 @@ def header(active):
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr">Menu</span><span class="burger" aria-hidden="true"></span></button>
 <nav id="site-nav" class="site-nav" aria-label="Main">
 <ul>{item('home','/','Home')}{item('about','/about/','About')}{item('contact','/contact-us/','Contact Us')}</ul>
-<a class="btn btn-sm" href="{SCHEDULE_URL}">Schedule a 30-min consultation</a>
+<a class="btn btn-sm" href="/contact-us/">Get in Touch</a>
 </nav>
 </div>
 </header>
