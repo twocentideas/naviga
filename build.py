@@ -176,7 +176,7 @@ def home():
 <div class="wrap">
 <div class="svc-head">
 <div><p class="eyebrow">What we do</p><h2 id="svc-title" class="h-xl">Services</h2></div>
-<p class="muted">Transparent pricing on every engagement. Not sure where you fit? Start with a conversation. Those are free.</p>
+<p class="muted">Not sure where you fit? Start with a conversation. Those are free.</p>
 </div>
 <div class="svc-grid" tabindex="0" aria-label="Services, scroll sideways on small screens">
 {''.join(cards)}
