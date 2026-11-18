@@ -245,3 +245,22 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 }
 @media (max-width:1099px){.epigraph-fig blockquote p{text-indent:0}}
 @media (max-width:520px){.foot-tag{letter-spacing:.2em}.foot-grid{gap:28px 20px}.foot-wordmark{font-size:28px;letter-spacing:.16em}}
+/* Consultation form: full-width horizontal band on tablet/laptop, a card in the phone carousel */
+@media (min-width:600px){
+  .svc-grid .svc-form{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;padding:26px 28px}
+  .svc-form-head{grid-column:1/-1;display:flex;flex-direction:column;gap:6px}
+  .svc-form .btn{grid-column:1/-1;margin-top:0}
+  .svc-form .form-status{grid-column:1/-1;margin:0}
+  .svc-form .form-status:empty{display:none}
+  .svc:nth-child(9){grid-column:span 2}
+}
+@media (min-width:900px){
+  .svc:nth-child(9){grid-column:auto}
+  .svc-grid .svc-form{grid-template-columns:minmax(0,1.35fr) repeat(3,minmax(0,1fr)) auto;align-items:end;gap:12px 20px}
+  .svc-form-head{grid-column:auto;align-self:center;padding-right:12px}
+  .svc-form h3{font-size:23px}
+  .svc-form .btn{grid-column:auto;min-height:41px;padding:10px 26px;white-space:nowrap}
+}
+@media (min-width:1180px){.svc:nth-child(9){grid-column:span 2}}
+.svc-form input,.svc-form select{height:42px;line-height:1.2}
+@media (min-width:900px){.svc-form .btn{align-self:end;height:42px;min-height:42px}}

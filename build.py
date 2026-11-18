@@ -139,7 +139,7 @@ def home():
         cards.append(f'<article class="svc"><p class="svc-n">{i:02d}</p><h3>{t}</h3><p class="svc-d">{d}</p><ul>{lis}</ul>{extra}</article>')
     opts = ''.join(f'<option>{t}</option>' for t in TOPICS)
     form = f'''<form id="schedule-consultation" class="svc svc-form js-form" action="/api/contact" method="post" aria-labelledby="sc-title">
-<p class="svc-n">10</p><h3 id="sc-title">Schedule a free 30-min consultation</h3>
+<div class="svc-form-head"><p class="svc-n">10</p><h3 id="sc-title">Schedule a free 30-min consultation</h3></div>
 <label>Name<input type="text" name="name" autocomplete="name" required></label>
 <label>Email<input type="email" name="email" autocomplete="email" required></label>
 <label>Topic<select name="topic">{opts}</select></label>
