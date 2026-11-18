@@ -17,7 +17,7 @@ SCHEMA = {
   "url": SITE + "/", "telephone": PHONE_TEL, "email": EMAIL,
   "image": SITE + "/assets/img/og.jpg",
   "description": "Trusts and estates law firm in Scarborough, Maine: estate planning, wealth transfer, asset protection, prenuptial agreements and family cottage planning.",
-  "address": {"@type": "PostalAddress", "streetAddress": ADDR1, "addressLocality": "Scarborough", "addressRegion": "ME", "postalCode": "04074", "addressCountry": "US"},
+  "address": {"@type": "PostalAddress", "addressLocality": "Scarborough", "addressRegion": "ME", "postalCode": "04074", "addressCountry": "US"},
   "areaServed": ["Maine", "District of Columbia"],
   "founder": {"@type": "Person", "name": "Meredith M. Maller", "jobTitle": "Founder & Attorney",
               "alumniOf": ["Georgetown University Law Center", "University of Maryland Francis King Carey School of Law", "Bates College"]},
@@ -88,7 +88,7 @@ def footer(cta=True):
 <div class="wrap foot-grid foot-main">
 <p class="foot-line">Clients choose <i>Naviga</i> for sophisticated legal work delivered with focus, discretion, and respect—for their time, their resources, and their goals.</p>
 <div class="foot-col">
-<h2 class="foot-h">Visit</h2>
+<h2 class="foot-h">Mailing Address</h2>
 <address>{ADDR1}<br>{ADDR2}</address>
 </div>
 <div class="foot-col">
