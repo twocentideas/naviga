@@ -350,3 +350,5 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .logo-card .logo-mark{font-size:30px}
 .logo-card:hover .logo-mark{color:var(--harbor)}
 @media (max-width:520px){.logo-card{padding:4px 0}.logo-card .logo-mark{font-size:24px}}
+.logo-card .logo-mark{color:var(--glacier)}
+.logo-card:hover .logo-mark{color:var(--harbor)}
