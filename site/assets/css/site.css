@@ -322,3 +322,7 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .exp-list .edu-deg{font-size:15px;font-weight:600;letter-spacing:.02em;font-variant-numeric:lining-nums}
 .edu+.edu{margin-top:12px}
 .edu-focus{font-size:13.5px;line-height:1.45;color:var(--mountain)}
+/* Founder note sized to the photo; sign-off on two lines */
+.founder-note p{font-size:clamp(18px,1.6vw,20.5px)}
+.sign-intro{font-size:19px;line-height:1.4}
+@media (max-width:760px){.founder-note p{font-size:19px}}
