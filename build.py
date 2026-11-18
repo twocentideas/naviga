@@ -193,7 +193,7 @@ def home():
 {pic('meredith', 'Meredith M. Maller', 'portrait')}
 <div class="stack">
 <p class="eyebrow">Meet your attorney</p>
-<h2 class="h-lg">Meredith M. Maller, J.D., LL.M.</h2>
+<h2 class="h-lg name-creds">Meredith M. Maller<span class="creds">J.D., LL.M.</span></h2>
 <p class="measure">A seasoned trusts and estates attorney, Meredith founded <i>Naviga</i> to guide individuals and families through estate planning with clarity, confidence, and care. She brings a strategic yet deeply personal approach to helping clients protect their assets and prepare for the future.</p>
 <a class="btn" href="/about/#meredith">Meet Meredith</a>
 </div>
@@ -255,7 +255,7 @@ def about():
 <div class="stack">
 <p class="eyebrow">About Meredith</p>
 <div>
-<h2 class="h-md">Meredith M. Maller, J.D., LL.M.</h2>
+<h2 class="h-md name-creds">Meredith M. Maller<span class="creds">J.D., LL.M.</span></h2>
 <p class="strong">Founder, <i>Naviga</i></p>
 <p class="small muted">Trusts &amp; Estates | Wealth Transfer Strategy | Legacy Planning</p>
 </div>

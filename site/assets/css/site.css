@@ -300,3 +300,8 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .svc-form--compact h3{font-size:22px}
   .svc-form--compact .btn{grid-column:auto;align-self:end;height:42px;min-height:42px;padding:10px 20px}
 }
+/* Name with smaller credentials on one line (as on the business card) */
+.name-creds{white-space:nowrap}
+.name-creds .creds{font-family:var(--serif-text);font-weight:400;font-size:.4em;letter-spacing:.06em;color:var(--mountain);margin-left:.6em;vertical-align:.12em}
+#meredith .h-md{font-size:clamp(28px,2.6vw,36px)}
+@media (max-width:420px){#meredith .h-md{font-size:28px}.attorney .h-lg{font-size:32px}}
