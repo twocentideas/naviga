@@ -394,3 +394,4 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .intro-btn{position:absolute;top:100%;left:var(--under-x,0px);margin-top:22px;white-space:nowrap}
 }
 .btn-chart.intro-btn{line-height:1;padding:9px 21px;min-height:0}
+.btn-chart.intro-btn{padding:11.5px 12.5px}
