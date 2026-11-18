@@ -406,3 +406,5 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .svc-grid .svc-form h3{font-size:21px}
   .svc-grid .svc-form .btn{align-self:stretch;height:auto;min-height:44px;margin-top:4px;padding:12px 16px;white-space:normal}
 }
+/* Avoid single-word last lines site-wide */
+p,li,blockquote,h1,h2,h3{text-wrap:pretty}
