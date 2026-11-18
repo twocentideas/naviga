@@ -162,10 +162,12 @@ def home():
 
 <section class="section intro-band">
 <div class="wrap two-up intro-grid">
-<p class="lede"><i>Naviga</i> is a trusts and estates law firm focused on delivering high-quality planning and advice with clarity, efficiency, and integrity.</p>
+<div class="intro-left">
+<p class="lede"><i>Naviga</i> is a trusts and estates law firm focused on delivering high-quality planning and advice with clarity, <span class="under-anchor">efficiency</span>, and integrity.</p>
+<a class="btn btn-chart intro-btn" href="/about/">Learn more about <i>Naviga</i></a>
+</div>
 <div class="stack">
 <p><i>Naviga</i> advises individuals and families on estate planning, wealth transfer, and asset protection, with a focus on clear communication, thoughtful design, and documents that actually work when they are needed — all with transparent pricing.</p>
-<a class="btn btn-chart" href="/about/">Learn more about <i>Naviga</i></a>
 </div>
 </div>
 </section>

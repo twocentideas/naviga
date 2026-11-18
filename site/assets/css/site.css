@@ -385,3 +385,12 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .intro-band .stack{position:relative}
   .intro-band .stack .btn{position:absolute;top:100%;left:28px;margin-top:26px}
 }
+/* Intro button: 75% size, map-weight line, sits under "efficiency" */
+.intro-band .stack .btn{position:static}
+.btn-chart.intro-btn{font-size:11.25px;padding:10px 21px;min-height:36px;border-width:clamp(1.5px,calc(100vw * 1.6 / 700),3.4px);border-color:rgba(154,191,210,.6);letter-spacing:.08em}
+.intro-left{display:flex;flex-direction:column;gap:22px;align-items:flex-start}
+@media (min-width:701px){
+  .intro-left{position:relative;display:block}
+  .intro-btn{position:absolute;top:100%;left:var(--under-x,0px);margin-top:22px;white-space:nowrap}
+}
+.btn-chart.intro-btn{line-height:1;padding:9px 21px;min-height:0}

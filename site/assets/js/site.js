@@ -17,6 +17,23 @@
     });
   }
 
+
+  // Hang the intro button directly under the word "efficiency"
+  var anchor = document.querySelector('.under-anchor'), ubtn = document.querySelector('.intro-btn');
+  function placeUnder() {
+    if (!anchor || !ubtn) return;
+    var box = ubtn.parentElement.getBoundingClientRect(), a = anchor.getBoundingClientRect();
+    var x = a.left - box.left;
+    // keep the button inside the column
+    x = Math.max(0, Math.min(x, box.width - ubtn.offsetWidth));
+    ubtn.style.setProperty('--under-x', x + 'px');
+  }
+  if (anchor && ubtn) {
+    placeUnder();
+    window.addEventListener('resize', placeUnder);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(placeUnder);
+  }
+
   // Services carousel arrows (phones only — grid on larger screens)
   var grid = document.querySelector('.svc-grid');
   function step(dir) { if (grid) grid.scrollBy({ left: dir * (grid.clientWidth + 16), behavior: 'smooth' }); }
