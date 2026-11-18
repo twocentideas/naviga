@@ -112,6 +112,7 @@ def pic(name, alt, cls='', eager=False, w=900, h=1159):
     load = 'eager' if eager else 'lazy'
     return f'<picture><source srcset="/assets/img/{name}.webp" type="image/webp"><img class="{cls}" src="/assets/img/{name}.jpg" alt="{alt}" width="{w}" height="{h}" loading="{load}" decoding="async"></picture>'
 
+FUNERAL = 'I will not come to your funeral and stand off in the distance under a tree visibly crying as your casket is lowered—but if you really want that, I can do the paperwork and help you hire someone who can.'
 SERVICES = [
  ('Estate Planning','The core documents every plan rests on.',['Wills','Revocable trusts','Powers of attorney','Advance healthcare directives']),
  ('Trusts &amp; Wealth Transfer','Structures that move wealth efficiently across generations.',['Irrevocable life insurance trusts (ILITs)','Spousal lifetime access trusts (SLATs)','Grantor retained annuity trusts (GRATs)','Domestic asset protection trusts','Asset allocation, risk management &amp; tax minimization']),
@@ -121,9 +122,8 @@ SERVICES = [
  ('Charitable Planning','Giving that reflects your values and lasts.',['Charitable trusts','Private foundations','Nonprofit and charitable entities']),
  ('Household &amp; Domestic Affairs','Protecting the people who help run your home—and your privacy.',['Employment agreements for household staff','Confidentiality agreements and NDAs','Household technology policies','Child medical directives']),
  ('Next-Generation Education','Preparing heirs to be informed, capable stewards.',['Wealth management and stewardship education for families']),
- ('The Uncomfortable Stuff','I’m a trusted Personal Attorney for a reason.',['“In case of” agreements','Digital privacy and postmortem management']),
+ ('The Uncomfortable Stuff',FUNERAL,['“In case of” agreements','Digital privacy and postmortem management','I’m a trusted Personal Attorney for a reason.']),
 ]
-FUNERAL = 'I will not come to your funeral and stand off in the distance under a tree visibly crying as your casket is lowered—but if you really want that, I can do the paperwork and help you hire someone who can.'
 
 TOPICS = [t for t, _, _ in SERVICES]
 
@@ -147,7 +147,7 @@ def consult_form(num='10', extra=''):
 def home():
     cards = []
     for i, (t, d, items) in enumerate(SERVICES, 1):
-        extra = f'<p class="svc-aside">{FUNERAL}</p>' if i == 9 else ''
+        extra = ''
         lis = ''.join(f'<li>{x}</li>' for x in items)
         cards.append(f'<article class="svc"><p class="svc-n">{i:02d}</p><h3>{t}</h3><p class="svc-d">{d}</p><ul>{lis}</ul>{extra}</article>')
     form = consult_form()
