@@ -209,3 +209,8 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .sign-intro{order:2;margin-top:0}
   .story-side .signature{order:3;margin-top:-24px}
 }
+.sign-contact{margin-top:8px;font-family:var(--serif-display);font-weight:500;font-size:clamp(18px,1.5vw,20px);line-height:1.45;color:var(--mountain)}
+.sign-contact a{color:var(--harbor);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.sign-contact a:hover{color:var(--treeline)}
+.story-side .signature{margin-top:14px}
+@media (max-width:760px){.sign-contact{order:3;margin-top:-20px}.story-side .signature{order:4;margin-top:-18px}}

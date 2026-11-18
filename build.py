@@ -8,6 +8,9 @@ EMAIL = 'info@navigalaw.com'
 ADDR1, ADDR2 = '201 US Rt. 1, #102', 'Scarborough, ME 04074'
 # Where "Schedule a 30-min consultation" goes. Swap for a Calendly / Cal.com link when ready.
 SCHEDULE_URL = '/#schedule-consultation'
+MER_EMAIL = 'meredith@navigalaw.com'
+# TODO: replace with Meredith's LinkedIn profile URL (linkedin.com/in/...)
+LINKEDIN_URL = 'https://www.linkedin.com/search/results/people/?keywords=Meredith%20Maller'
 
 SCHEMA = {
   "@context": "https://schema.org", "@type": "LegalService", "name": "Naviga Law",
@@ -212,6 +215,7 @@ def about():
 <div class="story-side">
 {pic('meredith', 'Meredith M. Maller', 'portrait')}
 <p class="sign-intro">Let’s discuss your legal needs.</p>
+<p class="sign-contact">Shoot me an <a href="mailto:{MER_EMAIL}">email</a>, give me a <a href="tel:{PHONE_TEL}">call</a>, or find me on <a href="{LINKEDIN_URL}" rel="noopener">LinkedIn</a>.</p>
 <p class="signature">— Mer</p>
 </div>
 <div class="stack prose founder-note">
