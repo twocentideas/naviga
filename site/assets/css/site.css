@@ -276,3 +276,10 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .foot-top .epigraph-fig{align-items:flex-end;text-align:right}
   .epigraph-fig blockquote p{text-indent:0}
 }
+/* Center the logo on the quote line itself; byline hangs below */
+@media (min-width:761px){
+  .foot-top .foot-grid{align-items:center}
+  .foot-top .epigraph-fig{position:relative;align-self:center}
+  .foot-top .epigraph-fig figcaption{position:absolute;top:100%;right:0;margin-top:12px;white-space:nowrap}
+  .foot-top{padding-bottom:clamp(52px,5vw,64px)}
+}
