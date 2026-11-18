@@ -190,3 +190,6 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .copy a{text-decoration:underline}
 .site-footer .btn-light,.site-footer .btn-light:hover{color:var(--treeline)}
 @media (max-width:599px){.svc-grid{align-items:flex-start}}
+/* Display headings: standard letterforms (no ff/fi/ffi ligatures) for even spacing */
+.display,.h-xxl,.h-xl,.h-lg,.h-md,.lede,blockquote{font-variant-ligatures:no-common-ligatures}
+.h-story{font-size:clamp(30px,3.3vw,45px)}

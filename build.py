@@ -207,7 +207,7 @@ def about():
 
 <section class="section">
 <div class="wrap">
-<h2 class="h-xl">Families are difficult. Family law shouldn’t be.</h2>
+<h2 class="h-xl h-story">Families are difficult. Family law shouldn’t be.</h2>
 <div class="story">
 {pic('meredith', 'Meredith M. Maller', 'portrait')}
 <div class="stack prose">
