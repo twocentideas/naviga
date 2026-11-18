@@ -46,12 +46,22 @@
 <p class="eyebrow">How I work</p>
 <h2 class="h-lg">Strategic, and deeply personal.</h2>
 <p>I guide individuals and families through the estate planning process with clarity, confidence, and care. My approach is strategic, but it’s also personal—protecting your assets and preparing for the future starts with understanding the people involved.</p>
-<a class="btn" href="/#schedule-consultation">Schedule 30-min Consultation</a>
 </div>
 <div>
 <h3 class="label">Where I focus</h3>
 <ul class="focus"><li>Crafting and implementing complex estate plans—revocable trusts, wills, powers of attorney, advance healthcare directives, irrevocable life insurance trusts and charitable trusts.</li><li>Aligning asset allocation, risk management and tax minimization with your estate planning goals.</li><li>Protecting vacation homes and cottages for multi-generational use.</li><li>Drafting and negotiating prenuptial and postnuptial agreements.</li><li>Establishing and managing private foundations, nonprofits and other charitable entities.</li></ul>
 </div>
+</div>
+<div class="wrap consult-wrap">
+<form id="schedule-consultation" class="svc svc-form js-form" action="/api/contact" method="post" aria-labelledby="sc-title">
+<div class="svc-form-head"><h3 id="sc-title">Schedule a free 30-min consultation</h3></div>
+<label>Name<input type="text" name="name" autocomplete="name" required></label>
+<label>Email<input type="email" name="email" autocomplete="email" required></label>
+<label>Topic<select name="topic"><option>Estate planning</option><option>Trusts &amp; wealth transfer</option><option>Marital &amp; partnership agreements</option><option>Family cottage</option><option>Something else</option></select></label>
+<input type="hidden" name="form" value="consultation"><div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" name="company" tabindex="-1" autocomplete="off"></label></div>
+<button type="submit" class="btn btn-light">Find a time</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+</form>
 </div>
 </section>
 

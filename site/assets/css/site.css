@@ -247,7 +247,7 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 @media (max-width:520px){.foot-tag{letter-spacing:.2em}.foot-grid{gap:28px 20px}.foot-wordmark{font-size:28px;letter-spacing:.16em}}
 /* Consultation form: full-width horizontal band on tablet/laptop, a card in the phone carousel */
 @media (min-width:600px){
-  .svc-grid .svc-form{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;padding:26px 28px}
+  .svc-form{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;padding:26px 28px}
   .svc-form-head{grid-column:1/-1;display:flex;flex-direction:column;gap:6px}
   .svc-form .btn{grid-column:1/-1;margin-top:0}
   .svc-form .form-status{grid-column:1/-1;margin:0}
@@ -256,7 +256,7 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 }
 @media (min-width:900px){
   .svc:nth-child(9){grid-column:auto}
-  .svc-grid .svc-form{grid-template-columns:minmax(0,1.35fr) repeat(3,minmax(0,1fr)) auto;align-items:end;gap:12px 20px}
+  .svc-form{grid-template-columns:minmax(0,1.35fr) repeat(3,minmax(0,1fr)) auto;align-items:end;gap:12px 20px}
   .svc-form-head{grid-column:auto;align-self:center;padding-right:12px}
   .svc-form h3{font-size:23px}
   .svc-form .btn{grid-column:auto;min-height:41px;padding:10px 26px;white-space:nowrap}
@@ -292,3 +292,4 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .foot-main{font-size:14px}
   .foot-main .btn{padding:12px 18px}
 }
+.consult-wrap{margin-top:56px}
