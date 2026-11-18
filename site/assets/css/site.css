@@ -332,3 +332,8 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .bio-split>.resume{flex:1 1 340px;max-width:420px;display:flex;flex-direction:column;gap:12px}
 .bio-prose{margin-top:6px;gap:18px}
 .resume .edu:first-child{padding-top:0;border-top:0}
+/* Footer line: three even lines; roomier address column */
+.foot-line{text-wrap:balance}
+.foot-main{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr) minmax(0,1fr) auto}
+.foot-col address,.foot-col{white-space:nowrap}
+@media (min-width:761px) and (max-width:1099px){.foot-main{grid-template-columns:minmax(0,1.5fr) minmax(0,1.05fr) minmax(0,1fr) auto}}
