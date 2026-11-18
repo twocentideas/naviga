@@ -299,8 +299,7 @@ def contact():
 <p>Start the conversation by reaching out, via this form, email, or phone. General response time is one business day.</p>
 <span class="rule-accent" aria-hidden="true"></span>
 <p class="contact-lines"><a href="mailto:{EMAIL}">{EMAIL}</a><a href="tel:{PHONE_TEL}">{PHONE}</a></p>
-<address class="muted">{ADDR1}<br>{ADDR2}</address>
-<p class="small"><a href="https://www.google.com/maps/search/?api=1&amp;query=201+US+Route+1+Scarborough+ME+04074" rel="noopener">Get directions</a></p>
+<div class="mail-addr"><p class="mail-label">Mailing Address:</p><address class="muted">{ADDR1}<br>{ADDR2}</address></div>
 </div>
 <form class="contact-form js-form" action="/api/contact" method="post" aria-label="Contact form">
 <div class="row2">

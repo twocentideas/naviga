@@ -352,3 +352,4 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 @media (max-width:520px){.logo-card{padding:4px 0}.logo-card .logo-mark{font-size:24px}}
 .logo-card .logo-mark{color:var(--glacier)}
 .logo-card:hover .logo-mark{color:var(--harbor)}
+.mail-label{font-size:13px;letter-spacing:.06em;font-weight:700;color:var(--treeline);margin-bottom:2px}
