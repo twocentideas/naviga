@@ -207,15 +207,18 @@ def about():
 
 <section class="section">
 <div class="wrap">
-<h2 class="h-xl h-story">Families are difficult. Family law shouldn’t be.</h2>
+<h2 class="h-xl h-story">Families are difficult enough. Family law shouldn’t be.</h2>
 <div class="story">
+<div class="story-side">
 {pic('meredith', 'Meredith M. Maller', 'portrait')}
-<div class="stack prose founder-note">
-<p>After years of practicing at leading law firms in Washington, D.C. and Maine (<i>Bernstein Shur</i>), I counseled clients, families, and family offices as an independent, global investment management and strategic advisor at a firm with over $160B of assets under management.</p>
-<p>I’ve built <i>Naviga</i> to provide direct access to experienced counsel and practical solutions, tailored to real lives and real families. It allows me to practice and work with clients on my terms, and theirs.</p>
-<p>I’ve been on both sides of the table as an Attorney, but my involvement with the legal system as a Parent, Child, Mother, and Partner is what informed and built <i>Naviga</i>. I am a Personal Attorney.</p>
-<p><i>Naviga</i> (the name of the sailboat I don’t own since I’m a sole practitioner law firm) reflects a deliberate departure from the traditional big-firm model—without sacrificing sophistication or rigor. Sometimes a smaller boat reminds us why we learned to sail.</p>
+<p class="sign-intro">Let’s discuss your legal needs.</p>
 <p class="signature">— Mer</p>
+</div>
+<div class="stack prose founder-note">
+<p>After years of practicing at leading law firms in Washington, D.C. and Maine (<i>Bernstein Shur</i>), I counseled clients, families, and family offices as an independent, global investment management and strategic advisor at a firm with over $160B of assets under management. Then I had a kid, got divorced, and left the big legal world behind.</p>
+<p><i>Naviga</i> (the name of the sailboat I don’t own since I’m a sole practitioner law firm) reflects a deliberate departure from the traditional big-firm model—without sacrificing sophistication or rigor. Sometimes a smaller boat reminds us why we learned to sail.</p>
+<p>I’ve built <i>Naviga</i> to provide direct access to experienced counsel and practical solutions, tailored to real lives and real families. It allows me to practice and work with clients on my terms, and theirs. Family law, at its best, is a collaboration.</p>
+<p>I’ve been on both sides of the table as an Attorney, but my involvement with the legal system as a Parent, Child, Mother, and Partner is what informed and built <i>Naviga</i>. I am a Personal Attorney, because the law and what it impacts is inherently personal.</p>
 </div>
 </div>
 </div>
