@@ -99,7 +99,7 @@ def footer(cta=True):
 </div>
 <div class="wrap foot-legal">
 <p class="disclaimer">{DISCLAIMER}</p>
-<p class="copy">© {year} Naviga Law · <a href="/privacy/">Privacy</a></p>
+<p class="copy">© {year} Naviga Law · <a class="credit" href="https://www.twocentideas.com" rel="noopener" title="Site by Two Cent Ideas" aria-label="Site by Two Cent Ideas">¢¢</a> · <a href="/privacy/">Privacy</a></p>
 </div>
 </footer>
 </body>

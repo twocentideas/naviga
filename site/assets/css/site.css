@@ -355,3 +355,5 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .mail-label{font-size:13px;letter-spacing:.06em;font-weight:700;color:var(--treeline);margin-bottom:2px}
 /* Service cards: second line as a subheadline above the list */
 .svc-d{font-family:var(--serif-display);font-style:italic;font-weight:500;font-size:16.5px;line-height:1.35;color:var(--mountain);margin:2px 0 6px}
+.copy .credit{text-decoration:none;letter-spacing:.05em}
+.copy .credit:hover{color:var(--glacier)}
