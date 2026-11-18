@@ -337,3 +337,8 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .foot-main{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr) minmax(0,1fr) auto}
 .foot-col address,.foot-col{white-space:nowrap}
 @media (min-width:761px) and (max-width:1099px){.foot-main{grid-template-columns:minmax(0,1.5fr) minmax(0,1.05fr) minmax(0,1fr) auto}}
+/* Header logo: business-card wordmark — Glacier NAVIGA on a Treeline plate */
+.logo-card{background:var(--treeline);padding:14px 20px 13px 24px;align-items:center;justify-content:center}
+.logo-card .logo-mark{font-weight:700;font-size:26px;letter-spacing:.2em;margin-right:-.2em;color:var(--glacier);line-height:1}
+.logo-card:hover .logo-mark{color:var(--ice)}
+@media (max-width:520px){.logo-card{padding:11px 16px 10px 19px}.logo-card .logo-mark{font-size:21px}}

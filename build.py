@@ -57,7 +57,7 @@ def header(active):
         return f'<li><a href="{href}"{cur}>{label}</a></li>'
     return f'''<header class="site-header">
 <div class="wrap bar">
-<a class="logo" href="/" aria-label="Naviga Law, home"><span class="logo-mark">NAVIGA</span><span class="logo-sub">LAW</span></a>
+<a class="logo logo-card" href="/" aria-label="Naviga Law, home"><span class="logo-mark">NAVIGA</span></a>
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr">Menu</span><span class="burger" aria-hidden="true"></span></button>
 <nav id="site-nav" class="site-nav" aria-label="Main">
 <ul>{item('home','/','Home')}{item('about','/about/','About')}{item('contact','/contact-us/','Contact Us')}</ul>
