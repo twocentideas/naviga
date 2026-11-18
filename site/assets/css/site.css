@@ -395,3 +395,6 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 }
 .btn-chart.intro-btn{line-height:1;padding:9px 21px;min-height:0}
 .btn-chart.intro-btn{padding:11.5px 12.5px}
+/* Header logo: Harbor, lightening to Glacier on hover */
+.logo-card .logo-mark{color:var(--harbor);transition:color .2s}
+.logo-card:hover .logo-mark,.logo-card:focus-visible .logo-mark{color:var(--glacier)}
