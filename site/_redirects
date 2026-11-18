@@ -1,0 +1,6 @@
+# Old Squarespace URLs → new site (301 = permanent, keeps search ranking)
+/our-team       /about/#meredith   301
+/our-team/      /about/#meredith   301
+/contact        /contact-us/       301
+/cart           /                  301
+/home           /                  301
