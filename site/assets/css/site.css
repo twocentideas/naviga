@@ -408,3 +408,7 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 }
 /* Avoid single-word last lines site-wide */
 p,li,blockquote,h1,h2,h3{text-wrap:pretty}
+/* About: tighter space around the rule between bio and founder's note */
+#meredith{padding-bottom:clamp(40px,4.5vw,56px)}
+.note-section{padding-top:clamp(40px,4.5vw,56px)}
+.note-section .story{margin-top:0}

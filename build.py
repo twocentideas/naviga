@@ -271,9 +271,8 @@ def about():
 </div>
 </section>
 
-<section class="section section-rule">
+<section class="section section-rule note-section">
 <div class="wrap">
-<h2 class="h-xl h-story">Families are difficult enough. Family law shouldn’t be.</h2>
 <div class="story">
 <div class="story-side">
 {pic('meredith', 'Meredith M. Maller', 'portrait')}
