@@ -296,7 +296,7 @@ def contact():
 <div class="wrap contact">
 <div class="stack">
 <h1 class="h-xxl">Contact us.</h1>
-<p>To help us best serve your inquiry, we recommend that you first describe the issue you’re having before telling us what you want to achieve. You may also email or call us to make an appointment. Our general response time is one business day.</p>
+<p>Start the conversation by reaching out, via this form, email, or phone. General response time is one business day.</p>
 <span class="rule-accent" aria-hidden="true"></span>
 <p class="contact-lines"><a href="mailto:{EMAIL}">{EMAIL}</a><a href="tel:{PHONE_TEL}">{PHONE}</a></p>
 <address class="muted">{ADDR1}<br>{ADDR2}</address>
