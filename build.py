@@ -231,7 +231,44 @@ def about():
 </div>
 </section>
 
-<section class="section">
+<section class="section section-rule" id="meredith">
+<div class="wrap split bio-split">
+<div class="stack bio-main">
+<p class="eyebrow">About Meredith</p>
+<div>
+<h2 class="h-md name-creds">Meredith M. Maller<span class="creds">J.D., LL.M.</span></h2>
+<p class="small muted">Trusts &amp; Estates | Wealth Transfer Strategy | Legacy Planning</p>
+</div>
+<div class="stack prose bio-prose">
+<p>A seventh-generation Mainer with longstanding roots on Mount Desert Island, Meredith pairs her technical skill with genuine understanding. Her background in finance, taxation, and sophisticated wealth transfer structures allows her to craft estate plans that are thoughtful, effective, and uniquely tailored to each client’s goals and values.</p>
+<p>Meredith is known for her steady, thoughtful counsel and her ability to guide clients through the complexities of generational wealth planning with clarity and purpose. She works closely with families to design structures that preserve wealth while preparing the next generation to be informed, capable stewards of it.</p>
+<p>Clients value Meredith’s calm, measured approach, her talent for distilling complex legal concepts into practical guidance, and her commitment to crafting bespoke solutions that reflect both their values and long-term vision.</p>
+</div>
+</div>
+<aside class="resume" aria-label="Experience and education">
+<div class="edu">
+<h3 class="label">Experience</h3>
+<ul class="edu-list exp-list">
+<li><span class="edu-deg">2026–</span><span class="edu-body"><span class="edu-school"><i>Naviga</i> Law</span><span class="edu-field">Founder</span><span class="edu-focus">Trusts, estates &amp; family advisory</span></span></li>
+<li><span class="edu-deg">2023–25</span><span class="edu-body"><span class="edu-school">Bernstein Shur</span><span class="edu-field">Shareholder</span><span class="edu-focus">Estate tax planning &amp; estate administration</span></span></li>
+<li><span class="edu-deg">2022–23</span><span class="edu-body"><span class="edu-school">Mercer Advisors</span><span class="edu-field">Senior Estate Planning Attorney</span><span class="edu-focus">Estate tax planning for wealth-management clients</span></span></li>
+<li><span class="edu-deg">2016–22</span><span class="edu-body"><span class="edu-school">Eaton Peabody</span><span class="edu-field">Associate · Senior Counsel</span><span class="edu-focus">Estate tax planning &amp; estate administration</span></span></li>
+<li><span class="edu-deg">2014–16</span><span class="edu-body"><span class="edu-school">Brown</span><span class="edu-field">Associate</span><span class="edu-focus">Washington, D.C.</span></span></li>
+</ul>
+</div>
+<div class="edu">
+<h3 class="label">Education</h3>
+<ul class="edu-list">
+<li><span class="edu-deg">LL.M.</span><span class="edu-body"><span class="edu-school">Georgetown University Law Center</span><span class="edu-field">Master of Laws in Taxation</span></span></li>
+<li><span class="edu-deg">J.D.</span><span class="edu-body"><span class="edu-school">University of Maryland Francis King Carey School of Law</span><span class="edu-field">Juris Doctor</span></span></li>
+<li><span class="edu-deg">B.A.</span><span class="edu-body"><span class="edu-school">Bates College</span><span class="edu-field">International Trade</span></span></li>
+</ul>
+</div>
+</aside>
+</div>
+</section>
+
+<section class="section section-rule">
 <div class="wrap">
 <h2 class="h-xl h-story">Families are difficult enough. Family law shouldn’t be.</h2>
 <div class="story">
@@ -246,40 +283,6 @@ def about():
 <p>I’ve built <i>Naviga</i> to provide direct access to experienced counsel and practical solutions, tailored to real lives and real families. It allows me to practice and work with clients on my terms, and theirs. Family law, at its best, is a collaboration.</p>
 <p>I’ve been on both sides of the table as an Attorney, but my involvement with the legal system as a Parent, Child, Mother, and Partner is what informed and built <i>Naviga</i>. I am a Personal Attorney, because the law and what it impacts is inherently personal.</p>
 </div>
-</div>
-</div>
-</section>
-
-<section class="section section-rule" id="meredith">
-<div class="wrap split split-wide">
-<div class="stack">
-<p class="eyebrow">About Meredith</p>
-<div>
-<h2 class="h-md name-creds">Meredith M. Maller<span class="creds">J.D., LL.M.</span></h2>
-<p class="small muted">Trusts &amp; Estates | Wealth Transfer Strategy | Legacy Planning</p>
-</div>
-<div class="edu">
-<h3 class="label">Experience</h3>
-<ul class="edu-list exp-list">
-<li><span class="edu-deg">2026–</span><span class="edu-body"><span class="edu-school"><i>Naviga</i> Law</span><span class="edu-field">Founder</span><span class="edu-focus">Trusts, estates &amp; family advisory</span></span></li>
-<li><span class="edu-deg">2023–25</span><span class="edu-body"><span class="edu-school">Bernstein Shur</span><span class="edu-field">Shareholder</span><span class="edu-focus">Estate tax planning &amp; estate administration</span></span></li>
-<li><span class="edu-deg">2022–23</span><span class="edu-body"><span class="edu-school">Mercer Advisors</span><span class="edu-field">Senior Estate Planning Attorney</span><span class="edu-focus">Estate tax planning for wealth-management clients</span></span></li>
-<li><span class="edu-deg">2016–22</span><span class="edu-body"><span class="edu-school">Eaton Peabody</span><span class="edu-field">Associate · Senior Counsel</span><span class="edu-focus">Estate tax planning &amp; estate administration</span></span></li>
-</ul>
-</div>
-<div class="edu">
-<h3 class="label">Education</h3>
-<ul class="edu-list">
-<li><span class="edu-deg">LL.M.</span><span class="edu-body"><span class="edu-school">Georgetown University Law Center</span><span class="edu-field">Master of Laws in Taxation</span></span></li>
-<li><span class="edu-deg">J.D.</span><span class="edu-body"><span class="edu-school">University of Maryland Francis King Carey School of Law</span><span class="edu-field">Juris Doctor</span></span></li>
-<li><span class="edu-deg">B.A.</span><span class="edu-body"><span class="edu-school">Bates College</span><span class="edu-field">International Trade</span></span></li>
-</ul>
-</div>
-</div>
-<div class="stack prose">
-<p>A seventh-generation Mainer with longstanding roots on Mount Desert Island, Meredith pairs her technical skill with genuine understanding. Her background in finance, taxation, and sophisticated wealth transfer structures allows her to craft estate plans that are thoughtful, effective, and uniquely tailored to each client’s goals and values.</p>
-<p>Meredith is known for her steady, thoughtful counsel and her ability to guide clients through the complexities of generational wealth planning with clarity and purpose. She works closely with families to design structures that preserve wealth while preparing the next generation to be informed, capable stewards of it.</p>
-<p>Clients value Meredith’s calm, measured approach, her talent for distilling complex legal concepts into practical guidance, and her commitment to crafting bespoke solutions that reflect both their values and long-term vision.</p>
 </div>
 </div>
 </section>'''

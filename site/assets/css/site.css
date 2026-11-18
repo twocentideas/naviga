@@ -326,3 +326,9 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .founder-note p{font-size:clamp(18px,1.6vw,20.5px)}
 .sign-intro{font-size:19px;line-height:1.4}
 @media (max-width:760px){.founder-note p{font-size:19px}}
+/* About Meredith: bio left, résumé stacked far right */
+.bio-split{gap:48px 88px}
+.bio-split>.bio-main{flex:1.7 1 480px;gap:22px}
+.bio-split>.resume{flex:1 1 340px;max-width:420px;display:flex;flex-direction:column;gap:12px}
+.bio-prose{margin-top:6px;gap:18px}
+.resume .edu:first-child{padding-top:0;border-top:0}
