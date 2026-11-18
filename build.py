@@ -72,20 +72,35 @@ DISCLAIMER = ('Attorney advertising. The information on this website is for gene
               'Meredith M. Maller is licensed in Maine and the District of Columbia.')
 
 def footer(cta=True):
-    top = f'''<div class="foot-cta">
-<h2 class="foot-line">Clients choose <i>Naviga</i> for sophisticated legal work delivered with focus, discretion, and respect—for their time, their resources, and their goals.</h2>
-<a class="btn btn-light" href="/contact-us/">Get in Touch</a>
-</div>''' if cta else ''
     year = datetime.date.today().year
+    btn = '<a class="btn btn-light foot-btn" href="/contact-us/">Get in Touch</a>' if cta else ''
     return f'''</main>
 <footer class="site-footer">
+<div class="foot-quote">
 <div class="wrap">
-{top}
-<div class="foot-row">
-<span class="foot-mark">NAVIGA LAW</span>
-<address><span>{ADDR1}</span><span>{ADDR2}</span></address>
-<div class="foot-contact"><a href="tel:{PHONE_TEL}">{PHONE}</a><a href="mailto:{EMAIL}">{EMAIL}</a></div>
+<figure class="epigraph-fig">
+<blockquote><p><span class="q-mark" aria-hidden="true">“</span>I am not afraid of storms, for I am learning how to sail my ship.<span class="q-mark" aria-hidden="true">”</span></p></blockquote>
+<figcaption><span class="ep-rule" aria-hidden="true"></span>Louisa May Alcott<span class="ep-rule" aria-hidden="true"></span></figcaption>
+</figure>
 </div>
+</div>
+<div class="wrap foot-main">
+<div class="foot-brand">
+<a class="foot-wordmark" href="/" aria-label="Naviga Law, home">NAVIGA</a>
+<p class="foot-tag">Law · Family Advisor &amp; Asset Protection</p>
+<p class="foot-line">Clients choose <i>Naviga</i> for sophisticated legal work delivered with focus, discretion, and respect—for their time, their resources, and their goals.</p>
+</div>
+<div class="foot-col">
+<h2 class="foot-h">Visit</h2>
+<address>{ADDR1}<br>{ADDR2}</address>
+</div>
+<div class="foot-col">
+<h2 class="foot-h">Contact</h2>
+<a href="tel:{PHONE_TEL}">{PHONE}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a>
+</div>
+<div class="foot-col foot-act">{btn}</div>
+</div>
+<div class="wrap foot-legal">
 <p class="disclaimer">{DISCLAIMER}</p>
 <p class="copy">© {year} Naviga Law · <a href="/privacy/">Privacy</a></p>
 </div>
@@ -181,15 +196,6 @@ def home():
 <p class="measure">A seasoned trusts and estates attorney, Meredith founded <i>Naviga</i> to guide individuals and families through estate planning with clarity, confidence, and care. She brings a strategic yet deeply personal approach to helping clients protect their assets and prepare for the future.</p>
 <a class="btn" href="/about/#meredith">Meet Meredith</a>
 </div>
-</div>
-</section>
-
-<section class="epigraph" aria-label="Foundational quote">
-<div class="wrap">
-<figure class="epigraph-fig">
-<blockquote><p><span class="q-mark" aria-hidden="true">“</span>I am not afraid of storms, for I am learning how to sail my ship.<span class="q-mark" aria-hidden="true">”</span></p></blockquote>
-<figcaption><span class="ep-rule" aria-hidden="true"></span>Louisa May Alcott<span class="ep-rule" aria-hidden="true"></span></figcaption>
-</figure>
 </div>
 </section>'''
     return (head('Naviga Law | Trusts & Estates Attorney in Scarborough, Maine',
