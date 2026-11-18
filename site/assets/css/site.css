@@ -376,3 +376,12 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .intro-band .stack p{color:var(--sky);font-size:17px;line-height:1.7}
 .intro-band .stack p i{color:var(--ice)}
 @media (max-width:700px){.intro-band .stack{padding-left:0;border-left:0}}
+/* Chart-style ghost button: line drawn in the same Glacier as the map */
+.btn-chart{background:transparent;color:var(--glacier);border:1px solid rgba(154,191,210,.7);letter-spacing:.06em}
+.btn-chart:hover{background:rgba(154,191,210,.12);color:var(--ice);border-color:var(--glacier)}
+/* Center the paragraph (not paragraph + button) on the headline */
+@media (min-width:701px){
+  .intro-band{padding-bottom:calc(clamp(72px,8vw,112px) + 60px)}
+  .intro-band .stack{position:relative}
+  .intro-band .stack .btn{position:absolute;top:100%;left:28px;margin-top:26px}
+}
