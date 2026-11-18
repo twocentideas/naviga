@@ -342,3 +342,7 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .logo-card .logo-mark{font-weight:700;font-size:26px;letter-spacing:.2em;margin-right:-.2em;color:var(--glacier);line-height:1}
 .logo-card:hover .logo-mark{color:var(--ice)}
 @media (max-width:520px){.logo-card{padding:11px 16px 10px 19px}.logo-card .logo-mark{font-size:21px}}
+.logo-card{background:var(--glacier)}
+.logo-card .logo-mark{color:var(--treeline)}
+.logo-card:hover{background:#A9C9DA}
+.logo-card:hover .logo-mark{color:var(--treeline)}
