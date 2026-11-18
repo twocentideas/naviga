@@ -256,7 +256,6 @@ def about():
 <p class="eyebrow">About Meredith</p>
 <div>
 <h2 class="h-md name-creds">Meredith M. Maller<span class="creds">J.D., LL.M.</span></h2>
-<p class="strong">Founder, <i>Naviga</i></p>
 <p class="small muted">Trusts &amp; Estates | Wealth Transfer Strategy | Legacy Planning</p>
 </div>
 <div class="edu">
