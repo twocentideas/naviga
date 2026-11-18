@@ -3,6 +3,7 @@
 @font-face{font-family:'Cormorant Garamond';src:url(/assets/fonts/cormorant-garamond-latin-500-italic.woff2) format('woff2');font-weight:500;font-style:italic;font-display:swap}
 @font-face{font-family:'Cormorant Garamond';src:url(/assets/fonts/cormorant-garamond-latin-600-normal.woff2) format('woff2');font-weight:600;font-display:swap}
 @font-face{font-family:'Cormorant Garamond';src:url(/assets/fonts/cormorant-garamond-latin-700-normal.woff2) format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'Mrs Saint Delafield';src:url(/assets/fonts/mrs-saint-delafield-latin-400-normal.woff2) format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:'Tinos';src:url(/assets/fonts/tinos-latin-400-normal.woff2) format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:'Tinos';src:url(/assets/fonts/tinos-latin-400-italic.woff2) format('woff2');font-weight:400;font-style:italic;font-display:swap}
 @font-face{font-family:'Tinos';src:url(/assets/fonts/tinos-latin-700-normal.woff2) format('woff2');font-weight:700;font-display:swap}
@@ -217,3 +218,6 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .sign-intro{line-height:1.4}
 .sign-intro a{color:var(--harbor);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
 .sign-intro a:hover{color:var(--treeline)}
+/* Hand-signed "Mer" */
+.story-side .signature{align-self:flex-end;font-family:'Mrs Saint Delafield',cursive;font-style:normal;font-weight:400;font-size:clamp(60px,5.4vw,78px);line-height:1;color:#2B4A63;margin:2px 12px 0 0;transform:rotate(-6deg);transform-origin:right center}
+@media (max-width:760px){.story-side .signature{margin-top:-10px;margin-right:16px}}
