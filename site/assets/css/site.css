@@ -365,3 +365,14 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .foot-logo .foot-wordmark{font-size:1em;letter-spacing:.2em;margin-right:-.2em}
 .foot-logo .foot-tag{font-size:.3em;letter-spacing:.233em;margin-right:-.233em;white-space:nowrap;opacity:.8}
 @media (max-width:520px){.foot-logo{font-size:28px}.foot-logo .foot-wordmark{letter-spacing:.2em}.foot-logo .foot-tag{letter-spacing:.233em}}
+/* Home intro: navy band with the Zoom-backdrop coastline */
+.intro-band{position:relative;overflow:hidden;isolation:isolate;background:var(--treeline);color:var(--sky);padding:clamp(72px,8vw,112px) 0}
+.intro-band::before{content:'';position:absolute;inset:0;z-index:-1;background:url(/assets/img/coast.svg) center 40%/cover no-repeat;opacity:.9}
+.intro-band::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(34,48,58,.82) 0%,rgba(34,48,58,.55) 50%,rgba(34,48,58,.25) 100%)}
+.intro-grid{align-items:center;gap:40px 96px}
+.intro-band .lede{color:var(--ice);font-size:clamp(28px,2.9vw,40px);line-height:1.2;max-width:560px}
+.intro-band .lede i{color:var(--glacier)}
+.intro-band .stack{gap:26px;max-width:520px;padding-left:28px;border-left:1px solid rgba(154,191,210,.4)}
+.intro-band .stack p{color:var(--sky);font-size:17px;line-height:1.7}
+.intro-band .stack p i{color:var(--ice)}
+@media (max-width:700px){.intro-band .stack{padding-left:0;border-left:0}}
