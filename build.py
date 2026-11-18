@@ -243,7 +243,7 @@ def about():
 <p>A seventh-generation Mainer with longstanding roots on Mount Desert Island, Meredith pairs her technical skill with genuine understanding. Her background in finance, taxation, and sophisticated wealth transfer structures allows her to craft estate plans that are thoughtful, effective, and uniquely tailored to each client’s goals and values.</p>
 <p>Meredith is known for her steady, thoughtful counsel and her ability to guide clients through the complexities of generational wealth planning with clarity and purpose. She works closely with families to design structures that preserve wealth while preparing the next generation to be informed, capable stewards of it.</p>
 <p>Clients value Meredith’s calm, measured approach, her talent for distilling complex legal concepts into practical guidance, and her commitment to crafting bespoke solutions that reflect both their values and long-term vision.</p>
-<p class="bio-close">Clients choose <i>Naviga</i> for sophisticated legal work delivered with focus, discretion, and respect—for their time, their resources, and their goals.</p>
+<p>Clients choose <i>Naviga</i> for sophisticated legal work delivered with focus, discretion, and respect—for their time, their resources, and their goals.</p>
 </div>
 </div>
 <aside class="resume" aria-label="Experience and education">
