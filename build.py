@@ -259,6 +259,15 @@ def about():
 <p class="small muted">Trusts &amp; Estates | Wealth Transfer Strategy | Legacy Planning</p>
 </div>
 <div class="edu">
+<h3 class="label">Experience</h3>
+<ul class="edu-list exp-list">
+<li><span class="edu-deg">2026–</span><span class="edu-body"><span class="edu-school"><i>Naviga</i> Law</span><span class="edu-field">Founder</span><span class="edu-focus">Trusts, estates &amp; family advisory</span></span></li>
+<li><span class="edu-deg">2023–25</span><span class="edu-body"><span class="edu-school">Bernstein Shur</span><span class="edu-field">Shareholder</span><span class="edu-focus">Estate tax planning &amp; estate administration</span></span></li>
+<li><span class="edu-deg">2022–23</span><span class="edu-body"><span class="edu-school">Mercer Advisors</span><span class="edu-field">Senior Estate Planning Attorney</span><span class="edu-focus">Estate tax planning for wealth-management clients</span></span></li>
+<li><span class="edu-deg">2016–22</span><span class="edu-body"><span class="edu-school">Eaton Peabody</span><span class="edu-field">Associate · Senior Counsel</span><span class="edu-focus">Estate tax planning &amp; estate administration</span></span></li>
+</ul>
+</div>
+<div class="edu">
 <h3 class="label">Education</h3>
 <ul class="edu-list">
 <li><span class="edu-deg">LL.M.</span><span class="edu-body"><span class="edu-school">Georgetown University Law Center</span><span class="edu-field">Master of Laws in Taxation</span></span></li>

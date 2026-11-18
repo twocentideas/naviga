@@ -313,3 +313,12 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .edu-body{display:flex;flex-direction:column;gap:3px}
 .edu-school{font-family:var(--serif-display);font-weight:600;font-size:20px;line-height:1.25;color:var(--treeline)}
 .edu-field{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+/* Education/experience: a touch smaller */
+.edu-list li{grid-template-columns:62px minmax(0,1fr);gap:14px;padding:11px 0}
+.edu-deg{font-size:20px}
+.edu-school{font-size:17px}
+.edu-field{font-size:11px;letter-spacing:.18em;line-height:1.5}
+.exp-list li{grid-template-columns:62px minmax(0,1fr)}
+.exp-list .edu-deg{font-size:15px;font-weight:600;letter-spacing:.02em;font-variant-numeric:lining-nums}
+.edu+.edu{margin-top:12px}
+.edu-focus{font-size:13.5px;line-height:1.45;color:var(--mountain)}
