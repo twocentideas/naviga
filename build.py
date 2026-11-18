@@ -131,10 +131,10 @@ def hidden_fields(kind):
     return (f'<input type="hidden" name="form" value="{kind}">'
             '<div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" name="company" tabindex="-1" autocomplete="off"></label></div>')
 
-def consult_form(num='10'):
+def consult_form(num='10', extra=''):
     opts = ''.join(f'<option>{t}</option>' for t in TOPICS)
     num_html = f'<p class="svc-n">{num}</p>' if num else ''
-    return f'''<form id="schedule-consultation" class="svc svc-form js-form" action="/api/contact" method="post" aria-labelledby="sc-title">
+    return f'''<form id="schedule-consultation" class="svc svc-form js-form{extra}" action="/api/contact" method="post" aria-labelledby="sc-title">
 <div class="svc-form-head">{num_html}<h3 id="sc-title">Schedule a free 30-min consultation</h3></div>
 <label>Name<input type="text" name="name" autocomplete="name" required></label>
 <label>Email<input type="email" name="email" autocomplete="email" required></label>
@@ -222,14 +222,12 @@ def about():
 <p class="eyebrow">How I work</p>
 <h2 class="h-lg">Strategic, and deeply personal.</h2>
 <p>I guide individuals and families through the estate planning process with clarity, confidence, and care. My approach is strategic, but it’s also personal—protecting your assets and preparing for the future starts with understanding the people involved.</p>
+{consult_form(num=None, extra=' svc-form--compact')}
 </div>
 <div>
 <h3 class="label">Where I focus</h3>
 <ul class="focus">{''.join(f'<li>{x}</li>' for x in focus)}</ul>
 </div>
-</div>
-<div class="wrap consult-wrap">
-{consult_form(num=None)}
 </div>
 </section>
 

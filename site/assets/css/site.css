@@ -292,4 +292,11 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .foot-main{font-size:14px}
   .foot-main .btn{padding:12px 18px}
 }
-.consult-wrap{margin-top:56px}
+/* Compact consultation form (About, under "How I work") */
+.svc-form--compact{margin-top:8px}
+@media (min-width:600px){
+  .svc-grid .svc-form--compact,.svc-form.svc-form--compact{grid-template-columns:1fr 1fr;gap:12px 16px;padding:22px 24px;align-items:end}
+  .svc-form--compact .svc-form-head{grid-column:1/-1;padding-right:0}
+  .svc-form--compact h3{font-size:22px}
+  .svc-form--compact .btn{grid-column:auto;align-self:end;height:42px;min-height:42px;padding:10px 20px}
+}
