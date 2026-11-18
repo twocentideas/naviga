@@ -214,8 +214,7 @@ def about():
 <div class="story">
 <div class="story-side">
 {pic('meredith', 'Meredith M. Maller', 'portrait')}
-<p class="sign-intro">Let’s discuss your legal needs.</p>
-<p class="sign-contact">Shoot me an <a href="mailto:{MER_EMAIL}">email</a>, give me a <a href="tel:{PHONE_TEL}">call</a>, or find me on <a href="{LINKEDIN_URL}" rel="noopener">LinkedIn</a>.</p>
+<p class="sign-intro">Let’s discuss your legal needs. Shoot me an <a href="mailto:{MER_EMAIL}">email</a>, give me a <a href="tel:{PHONE_TEL}">call</a>, or find me on <a href="{LINKEDIN_URL}" rel="noopener">LinkedIn</a>.</p>
 <p class="signature">— Mer</p>
 </div>
 <div class="stack prose founder-note">

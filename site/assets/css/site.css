@@ -214,3 +214,6 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .sign-contact a:hover{color:var(--treeline)}
 .story-side .signature{margin-top:14px}
 @media (max-width:760px){.sign-contact{order:3;margin-top:-20px}.story-side .signature{order:4;margin-top:-18px}}
+.sign-intro{line-height:1.4}
+.sign-intro a{color:var(--harbor);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.sign-intro a:hover{color:var(--treeline)}
