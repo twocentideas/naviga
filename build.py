@@ -125,7 +125,7 @@ SERVICES = [
 ]
 FUNERAL = 'I will not come to your funeral and stand off in the distance under a tree visibly crying as your casket is lowered—but if you really want that, I can do the paperwork and help you hire someone who can.'
 
-TOPICS = ['Estate planning','Trusts &amp; wealth transfer','Marital &amp; partnership agreements','Family cottage','Something else']
+TOPICS = [t for t, _, _ in SERVICES]
 
 def hidden_fields(kind):
     return (f'<input type="hidden" name="form" value="{kind}">'
