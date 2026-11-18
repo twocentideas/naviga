@@ -305,3 +305,11 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 .name-creds .creds{font-family:var(--serif-text);font-weight:400;font-size:.4em;letter-spacing:.06em;color:var(--mountain);margin-left:.6em;vertical-align:.12em}
 #meredith .h-md{font-size:clamp(28px,2.6vw,36px)}
 @media (max-width:420px){#meredith .h-md{font-size:28px}.attorney .h-lg{font-size:32px}}
+/* Education: degree + institution */
+.edu-list{list-style:none;margin:0;padding:0}
+.edu-list li{display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:baseline;padding:14px 0;border-top:1px solid var(--rule-soft)}
+.edu-list li:first-child{border-top:0;padding-top:4px}
+.edu-deg{font-family:var(--serif-display);font-weight:700;font-size:24px;line-height:1;letter-spacing:.04em;color:var(--harbor)}
+.edu-body{display:flex;flex-direction:column;gap:3px}
+.edu-school{font-family:var(--serif-display);font-weight:600;font-size:20px;line-height:1.25;color:var(--treeline)}
+.edu-field{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
