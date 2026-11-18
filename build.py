@@ -150,7 +150,7 @@ def home():
     body = f'''<section class="sky-hero">
 <div class="wrap hero-copy">
 <p class="eyebrow">Trusts &amp; Estates · Scarborough, Maine</p>
-<h1 class="display"><i>Naviga</i> is a modern estate planning firm built on a simple principle: clear, straightforward legal guidance delivered with exceptional service, helping clients chart a confident course for their legacy.</h1>
+<h1 class="display"><i>Naviga</i> provides exceptional legal guidance, helping chart a safe course for your life and legacy.</h1>
 <p class="hero-links"><a href="mailto:{EMAIL}">{EMAIL}</a><a href="tel:{PHONE_TEL}">{PHONE}</a></p>
 </div>
 {LANDSCAPE}
