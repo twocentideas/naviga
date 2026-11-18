@@ -283,3 +283,12 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
   .foot-top .epigraph-fig figcaption{position:absolute;top:100%;right:0;margin-top:12px;white-space:nowrap}
   .foot-top{padding-bottom:clamp(52px,5vw,64px)}
 }
+/* Keep the details row horizontal down to small tablets */
+@media (min-width:761px) and (max-width:1099px){
+  .foot-main{grid-template-columns:minmax(0,1.6fr) minmax(0,.9fr) minmax(0,1fr) auto;gap:20px 28px}
+  .foot-main .foot-line,.foot-main .foot-act{grid-column:auto}
+  .foot-main .foot-act{align-self:center}
+  .foot-line{font-size:16.5px}
+  .foot-main{font-size:14px}
+  .foot-main .btn{padding:12px 18px}
+}
