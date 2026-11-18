@@ -212,6 +212,21 @@ def about():
 </div>
 </section>
 
+<section class="section section-tint">
+<div class="wrap split">
+<div class="stack">
+<p class="eyebrow">How I work</p>
+<h2 class="h-lg">Strategic, and deeply personal.</h2>
+<p>I guide individuals and families through the estate planning process with clarity, confidence, and care. My approach is strategic, but it’s also personal—protecting your assets and preparing for the future starts with understanding the people involved.</p>
+<a class="btn" href="{SCHEDULE_URL}">Schedule 30-min Consultation</a>
+</div>
+<div>
+<h3 class="label">Where I focus</h3>
+<ul class="focus">{''.join(f'<li>{x}</li>' for x in focus)}</ul>
+</div>
+</div>
+</section>
+
 <section class="section">
 <div class="wrap">
 <h2 class="h-xl h-story">Families are difficult enough. Family law shouldn’t be.</h2>
@@ -227,21 +242,6 @@ def about():
 <p>I’ve built <i>Naviga</i> to provide direct access to experienced counsel and practical solutions, tailored to real lives and real families. It allows me to practice and work with clients on my terms, and theirs. Family law, at its best, is a collaboration.</p>
 <p>I’ve been on both sides of the table as an Attorney, but my involvement with the legal system as a Parent, Child, Mother, and Partner is what informed and built <i>Naviga</i>. I am a Personal Attorney, because the law and what it impacts is inherently personal.</p>
 </div>
-</div>
-</div>
-</section>
-
-<section class="section section-tint">
-<div class="wrap split">
-<div class="stack">
-<p class="eyebrow">How I work</p>
-<h2 class="h-lg">Strategic, and deeply personal.</h2>
-<p>I guide individuals and families through the estate planning process with clarity, confidence, and care. My approach is strategic, but it’s also personal—protecting your assets and preparing for the future starts with understanding the people involved.</p>
-<a class="btn" href="{SCHEDULE_URL}">Schedule 30-min Consultation</a>
-</div>
-<div>
-<h3 class="label">Where I focus</h3>
-<ul class="focus">{''.join(f'<li>{x}</li>' for x in focus)}</ul>
 </div>
 </div>
 </section>
