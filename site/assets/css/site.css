@@ -360,3 +360,8 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 /* Home hero: chart enlarged so its printed border runs off-screen */
 .sky-hero{position:relative;isolation:isolate;overflow:hidden;background-image:none}
 .sky-hero::before{content:'';position:absolute;inset:-14% -16%;z-index:-1;background-image:linear-gradient(rgba(212,225,231,.84),rgba(212,225,231,.84)),image-set(url(/assets/img/chart-hero.webp) type('image/webp'),url(/assets/img/chart-hero.jpg) type('image/jpeg'));background-size:cover;background-position:center 34%;background-repeat:no-repeat}
+/* Footer logo: tagline sized and tracked to the exact width of NAVIGA LAW (all in em, so it scales together) */
+.foot-logo{font-size:clamp(28px,2.6vw,38px)}
+.foot-logo .foot-wordmark{font-size:1em;letter-spacing:.2em;margin-right:-.2em}
+.foot-logo .foot-tag{font-size:.3em;letter-spacing:.233em;margin-right:-.233em;white-space:nowrap;opacity:.8}
+@media (max-width:520px){.foot-logo{font-size:28px}.foot-logo .foot-wordmark{letter-spacing:.2em}.foot-logo .foot-tag{letter-spacing:.233em}}
