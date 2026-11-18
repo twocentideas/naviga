@@ -122,7 +122,7 @@ SERVICES = [
  ('Charitable Planning','Giving that reflects your values and lasts.',['Charitable trusts','Private foundations','Nonprofit and charitable entities']),
  ('Household &amp; Domestic Affairs','Protecting the people who help run your home—and your privacy.',['Employment agreements for household staff','Confidentiality agreements and NDAs','Household technology policies','Child medical directives']),
  ('Next-Generation Education','Preparing heirs to be informed, capable stewards.',['Wealth management and stewardship education for families']),
- ('The Uncomfortable Stuff',FUNERAL,['“In case of” agreements','Digital privacy and postmortem management','I’m a trusted Personal Attorney for a reason.']),
+ ('The Uncomfortable Stuff',FUNERAL,['“In case of” agreements','Digital privacy and postmortem management']),
 ]
 
 TOPICS = [t for t, _, _ in SERVICES]
