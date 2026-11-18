@@ -398,3 +398,11 @@ blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-weig
 /* Header logo: Harbor, lightening to Glacier on hover */
 .logo-card .logo-mark{color:var(--harbor);transition:color .2s}
 .logo-card:hover .logo-mark,.logo-card:focus-visible .logo-mark{color:var(--glacier)}
+/* 5-across: consultation form returns as the 10th tile; 3-across keeps the horizontal band */
+@media (min-width:1180px){
+  .svc-grid .svc:nth-child(9){grid-column:auto}
+  .svc-grid .svc-form{grid-column:auto;display:flex;flex-direction:column;gap:10px;padding:20px 18px;align-items:stretch}
+  .svc-grid .svc-form .svc-form-head{padding-right:0;align-self:auto;gap:8px}
+  .svc-grid .svc-form h3{font-size:21px}
+  .svc-grid .svc-form .btn{align-self:stretch;height:auto;min-height:44px;margin-top:4px;padding:12px 16px;white-space:normal}
+}
